@@ -46,5 +46,6 @@ mean and standard-deviation summary of mean by activity and subject:
 *		fBodyAccJerkMag
 *		fBodyGyroMag
 *		fBodyGyroJerkMag
+
 	The mean summary is indicated by the .mean.. postfix, while the
 	standard-deviation summary is indicated by the .std... suffix.
