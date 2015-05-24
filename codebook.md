@@ -24,25 +24,27 @@ the cartesian product of Activities and Subjects.
 # Tidy varialbes' descriptions:
 activity: Activity name [WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS,
 	SITTING, STANDING, LAYING]
+	
 subject_id: ID of the test-subject [1:30]
+
 mean and standard-deviation summary of mean by activity and subject:
 	['-XYZ' is used to denote 3-axial signals in the X, Y and Z directions.]
-		tBodyAcc-XYZ
-		tGravityAcc-XYZ
-		tBodyAccJerk-XYZ
-		tBodyGyro-XYZ
-		tBodyGyroJerk-XYZ
-		tBodyAccMag
-		tGravityAccMag
-		tBodyAccJerkMag
-		tBodyGyroMag
-		tBodyGyroJerkMag
-		fBodyAcc-XYZ
-		fBodyAccJerk-XYZ
-		fBodyGyro-XYZ
-		fBodyAccMag
-		fBodyAccJerkMag
-		fBodyGyroMag
-		fBodyGyroJerkMag
+	*	tBodyAcc-XYZ
+	*	tGravityAcc-XYZ
+	*	tBodyAccJerk-XYZ
+	*	tBodyGyro-XYZ
+	*	tBodyGyroJerk-XYZ
+	*	tBodyAccMag
+	*	tGravityAccMag
+	*	tBodyAccJerkMag
+	*	tBodyGyroMag
+	*	tBodyGyroJerkMag
+	*	fBodyAcc-XYZ
+	*	fBodyAccJerk-XYZ
+	*	fBodyGyro-XYZ
+	*	fBodyAccMag
+	*	fBodyAccJerkMag
+	*	fBodyGyroMag
+	*	fBodyGyroJerkMag
 	The mean summary is indicated by the .mean.. postfix, while the
 	standard-deviation summary is indicated by the .std... suffix.
