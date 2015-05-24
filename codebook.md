@@ -1,6 +1,6 @@
 # Codebook
 
-# Analysis
+## Analysis
 There are two folders, one for testing and one for training. Each folder
 contains:
 * X_data file which holds measurements
@@ -21,7 +21,7 @@ varialbe containing the measurement's means and standard-deviations.
 The end result is a tidy data-frame containing the above means for
 the cartesian product of Activities and Subjects.
 
-# Tidy varialbes' descriptions:
+## Tidy varialbes' descriptions:
 activity: Activity name [WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS,
 	SITTING, STANDING, LAYING]
 	
@@ -47,5 +47,5 @@ mean and standard-deviation summary of mean by activity and subject:
 *		fBodyGyroMag
 *		fBodyGyroJerkMag
 
-	The mean summary is indicated by the .mean.. postfix, while the
+The mean summary is indicated by the .mean.. postfix, while the
 	standard-deviation summary is indicated by the .std... suffix.
